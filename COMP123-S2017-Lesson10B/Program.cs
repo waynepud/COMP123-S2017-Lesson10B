@@ -18,14 +18,14 @@ namespace COMP123_S2017_Lesson10B
     {
         static void Main(string[] args)
         {
-            //SuperHero superHero = new SuperHero("SuperHero Dude", 20);
-            //superHero.AddPower("Spider Climbing", 50);
-            //superHero.AddPower("Webcasting", 40);
-            //superHero.AddPower("Webcasting", 40);
-            ////SuperHero.DisplayPowers();
+            SuperHero superHero = new SuperHero("SuperHero Dude", 20);
+            superHero.AddPower("Spider Climbing", 50);
+            superHero.AddPower("Webcasting", 40);
+            superHero.AddPower("Webcasting", 40);
+            //SuperHero.DisplayPowers();
 
-            //Console.WriteLine(superHero.ToString());
-            //Console.WriteLine("karma: " + superHero.Karma);
+            Console.WriteLine(superHero.ToString());
+            Console.WriteLine("karma: " + superHero.Karma);
 
             // For Lab 24
 
@@ -35,6 +35,31 @@ namespace COMP123_S2017_Lesson10B
             supervillain.AddPower("Giving good marks", 0);
             Console.WriteLine(supervillain.ToString());
             Console.WriteLine("Malice: Wayyyy too much --> " + supervillain.Malice);
+
+            if (superHero is SuperHuman)
+            {
+                Console.WriteLine("Superhero is a superHuman");
+            }
+
+            if (superHero is SuperHero)
+            {
+                Console.WriteLine("Superhero is a superHero");
+            }
+
+            if (superHero is Human)
+            {
+                Console.WriteLine("Superhero is a Human");
+            }
+            if (superHero is object)
+            {
+                Console.WriteLine("Superhero is a an object");
+            }
+
+            if (superHero is IHasKarma)
+            {
+                Console.WriteLine("SuperHero has karma");
+            }
+
 
         }
     }
