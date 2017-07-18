@@ -60,7 +60,19 @@ namespace COMP123_S2017_Lesson10B
                 Console.WriteLine("SuperHero has karma");
             }
 
-            Console.WriteLine(supervillain._getPowerIndex("Hard marker")); 
+            if (supervillain.GetPower("Giving homework") > supervillain.GetPower("Giving good marks"))
+            {
+                Console.WriteLine("Giving homework is more powerful than giving good marks");
+            }
+
+            if (supervillain.GetPower("Giving homework") > supervillain.GetPower("Hard marker"))
+            {
+                Console.WriteLine("Giving homework is more powerful than hard marker");
+            }
+            else
+            {
+                Console.WriteLine("Hard marker is the strongest");
+            }
         }
     }
 }

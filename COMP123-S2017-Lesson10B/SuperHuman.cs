@@ -132,5 +132,22 @@ namespace COMP123_S2017_Lesson10B
             Console.WriteLine("Not implemented");
         }
 
+        /// <summary>
+        /// This method returns a power object that matches the power name
+        /// If power not found, returns anonymous power object with rank 0
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public Power GetPower(string name)
+        {
+            int index = this._getPowerIndex(name);
+
+
+            if (index != -1)
+            {
+                return this.Powers[this._getPowerIndex(name)];
+            }
+            return new Power ("Unknown power", 0); // means that the power wasn't found
+        }
     }
 }
