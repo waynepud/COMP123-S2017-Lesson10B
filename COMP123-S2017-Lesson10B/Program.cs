@@ -60,7 +60,7 @@ namespace COMP123_S2017_Lesson10B
                 Console.WriteLine("SuperHero has karma");
             }
 
-
+            Console.WriteLine(supervillain._getPowerIndex("Hard marker")); 
         }
     }
 }

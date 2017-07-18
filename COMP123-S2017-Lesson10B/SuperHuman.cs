@@ -54,6 +54,33 @@ namespace COMP123_S2017_Lesson10B
         }
 
         /// <summary>
+        /// This private method returns the index of the power name in the power list
+        /// if not found, returns -1
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns>returns the index of the power list by name</returns>
+        private int _getPowerIndex(string name)
+        {
+            int index = 0;
+
+            foreach (Power power in this.Powers)
+            {
+                if (name.Equals(power.Name))
+                {
+                    break;
+                }
+
+                index++;
+
+                if (this.Powers.Count == index)
+                {
+                    index = -1; //this means that we did not find the power in the list
+                }               
+            }
+            return index;
+        }
+
+        /// <summary>
         /// This method adds a power to the Power List.
         /// It takes two parameters - name(string) - rank(int)
         /// </summary>
