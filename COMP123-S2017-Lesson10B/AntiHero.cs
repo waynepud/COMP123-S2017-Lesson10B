@@ -15,7 +15,7 @@ namespace COMP123_S2017_Lesson10B
     /// <summary>
     /// This is the antihero class
     /// </summary>
-    public class AntiHero : SuperHuman, IHasKarma, IHasMalice
+    public class AntiHero : SuperHuman, IHasKarma, IHasMalice, ITrainable
     {
         // PRIVATE INSTANCE VARIABLES
         private int _karma;
@@ -65,6 +65,20 @@ namespace COMP123_S2017_Lesson10B
         // PRIVATE METHODS
 
         // PUBLIC METHODS
+        //void IHasKarma.Trains()
+        //{
+        //    Console.WriteLine("Method not implemented");          // Can use one public method to take care of both interfaces by implementing a third interface
+        //}
+
+        //void IHasMalice.Trains()
+        //{
+        //    Console.WriteLine("Method not implemented");
+        //}
+
+        public void Train()
+        {
+            Console.WriteLine("Method not implemented");
+        }
 
     }
 }

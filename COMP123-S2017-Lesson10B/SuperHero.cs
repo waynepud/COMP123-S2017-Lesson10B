@@ -15,7 +15,7 @@ namespace COMP123_S2017_Lesson10B
     /// <summary>
     /// This is the SuperHero class
     /// </summary>
-    public sealed class SuperHero : SuperHuman, IHasKarma
+    public sealed class SuperHero : SuperHuman, IHasKarma, ITrainable
     {
         // PRIVATE INSTANCE VARIABLES
         private int _karma;
@@ -42,6 +42,11 @@ namespace COMP123_S2017_Lesson10B
         {
             this.Karma = karma;
 
+        }
+
+        public void Trains()
+        {
+            Console.WriteLine("Method not implemented");
         }
 
         // PRIVATE METHODS

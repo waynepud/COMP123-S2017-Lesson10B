@@ -36,5 +36,10 @@ namespace COMP123_S2017_Lesson10B
             this.Malice = malice;
         }
 
+        //public methods
+        public void Trains()
+        {
+            Console.WriteLine("Method not implemented");
+        }
     }
 }
