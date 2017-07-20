@@ -15,7 +15,7 @@ namespace COMP123_S2017_Lesson10B
     /// <summary>
     /// This is the SuperHero class
     /// </summary>
-    public class SuperHero : SuperHuman, IHasKarma
+    public sealed class SuperHero : SuperHuman, IHasKarma
     {
         // PRIVATE INSTANCE VARIABLES
         private int _karma;
