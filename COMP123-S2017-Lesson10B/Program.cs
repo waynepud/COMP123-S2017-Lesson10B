@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Wayne Pud
  * Date: July 13, 2017
  * Description: Demo for lesson 9
- * Version: 0.7 - Implemented the supervillain class
+ * Version: 0.8 - Implemented the antihero class
  */
 
 
@@ -73,6 +73,18 @@ namespace COMP123_S2017_Lesson10B
             {
                 Console.WriteLine("Hard marker is the strongest");
             }
+
+
+            AntiHero batman = new AntiHero("Batman", 20, 20);
+            batman.AddPower("Super Intelligence", 50);
+            Console.WriteLine(batman.ToString());
+            Console.WriteLine("Karma: " +batman.Karma);
+            Console.WriteLine("Malice: " + batman.Malice);
+
+
+
+
+
         }
     }
 }
