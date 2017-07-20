@@ -7,7 +7,7 @@ using System.Text;
  * Name: Wayne Pud
  * Date: July 13, 2017
  * Description: This is the SuperHero class which inherits from the SuperHuman class and implements the IHasKarma Interface
- * Version: 0.2 - Added variables and properties and modified constructor to take karma
+ * Version: 0.3 - refactored - removed ITrainable interface and used override method
  */
 
 namespace COMP123_S2017_Lesson10B
@@ -15,7 +15,7 @@ namespace COMP123_S2017_Lesson10B
     /// <summary>
     /// This is the SuperHero class
     /// </summary>
-    public sealed class SuperHero : SuperHuman, IHasKarma, ITrainable
+    public sealed class SuperHero : SuperHuman, IHasKarma
     {
         // PRIVATE INSTANCE VARIABLES
         private int _karma;
@@ -44,7 +44,7 @@ namespace COMP123_S2017_Lesson10B
 
         }
 
-        public void Trains()
+        public override void Train()
         {
             Console.WriteLine("Method not implemented");
         }

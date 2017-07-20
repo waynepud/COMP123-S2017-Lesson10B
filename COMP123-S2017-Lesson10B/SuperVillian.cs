@@ -37,9 +37,9 @@ namespace COMP123_S2017_Lesson10B
         }
 
         //public methods
-        public void Trains()
-        {
-            Console.WriteLine("Method not implemented");
-        }
+        //public void Train()
+        //{
+        //    Console.WriteLine("Method not implemented");
+        //}
     }
 }

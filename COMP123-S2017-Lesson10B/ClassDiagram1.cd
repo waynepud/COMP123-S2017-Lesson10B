@@ -3,14 +3,14 @@
   <Class Name="COMP123_S2017_Lesson10B.Human">
     <Position X="2.75" Y="1.75" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <HashCode>AAAgIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.SuperHuman">
     <Position X="5.75" Y="1.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACQABQAAIAABAAAA=</HashCode>
+      <HashCode>AAAgAAAAACAAAAAEAAAAIAAAAAAACQABQAAIAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.SuperHero">
-    <Position X="11" Y="4.25" Width="1.5" />
+    <Position X="3.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
@@ -30,17 +30,17 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.SuperVillian">
-    <Position X="6" Y="5.5" Width="1.5" />
+    <Position X="11.25" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>SuperVillian.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="COMP123_S2017_Lesson10B.AntiHero">
-    <Position X="9" Y="6" Width="1.5" />
+    <Position X="6.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAgEAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>AAAAEAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>AntiHero.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -53,14 +53,14 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="COMP123_S2017_Lesson10B.IHasMalice">
-    <Position X="3.5" Y="5.5" Width="1.5" />
+    <Position X="1" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMalice.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="COMP123_S2017_Lesson10B.ITrainable">
-    <Position X="3.5" Y="7.5" Width="1.5" />
+    <Position X="1.25" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ITrainable.cs</FileName>

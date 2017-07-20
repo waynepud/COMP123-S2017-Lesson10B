@@ -149,5 +149,10 @@ namespace COMP123_S2017_Lesson10B
             }
             return new Power ("Unknown power", 0); // means that the power wasn't found
         }
+
+        public override void Train()
+        {
+            Console.WriteLine("To be implemented in subclass");
+        }
     }
 }

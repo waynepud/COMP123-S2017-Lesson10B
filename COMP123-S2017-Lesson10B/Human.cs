@@ -53,5 +53,7 @@ namespace COMP123_S2017_Lesson10B
 
         //public abstract methods
         public abstract void DisplaySkills();
+
+        public abstract void Train();
     }
 }

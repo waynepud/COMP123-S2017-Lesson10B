@@ -15,7 +15,7 @@ namespace COMP123_S2017_Lesson10B
     /// <summary>
     /// This is the antihero class
     /// </summary>
-    public class AntiHero : SuperHuman, IHasKarma, IHasMalice, ITrainable
+    public class AntiHero : SuperHuman, IHasKarma, IHasMalice
     {
         // PRIVATE INSTANCE VARIABLES
         private int _karma;
@@ -75,10 +75,10 @@ namespace COMP123_S2017_Lesson10B
         //    Console.WriteLine("Method not implemented");
         //}
 
-        public void Train()
-        {
-            Console.WriteLine("Method not implemented");
-        }
+        //public override void Train()
+        //{
+        //    Console.WriteLine("Method not implemented");
+        //}
 
     }
 }
